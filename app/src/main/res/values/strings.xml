@@ -14,17 +14,23 @@
 -->
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok</string>
+    <string name="app_name">Milpitas Tour Guide</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="category_phrases">Phrases</string>
+    <!-- Category name for Restaurants. [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
+    <!-- Category name for Shopping. [CHAR LIMIT=20] -->
+    <string name="category_shops">Shopping</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="category_numbers">Numbers</string>
+    <!-- Category name for Walking. [CHAR LIMIT=20] -->
+    <string name="category_walking">Walking</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family Members</string>
+    <!-- Category name for Biking. [CHAR LIMIT=20] -->
+    <string name="category_biking">Biking</string>
+
+    <!-- Category name for Parks. [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for Playgrounds. [CHAR LIMIT=20] -->
+    <string name="category_playgrounds">Playgrounds</string>
 </resources>
