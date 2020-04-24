@@ -80,14 +80,12 @@ public class WalkingFragment extends Fragment {
 
         // create an array of words
         final ArrayList<Item> words = new ArrayList<Item>();
-        words.add(new Item("red", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
-        words.add(new Item("green", "chokokki", R.drawable.color_green, R.raw.color_green));
-        words.add(new Item("brown", "ṭakaakki", R.drawable.color_brown, R.raw.color_brown));
-        words.add(new Item("gray", "ṭopoppi", R.drawable.color_gray, R.raw.color_gray));
-        words.add(new Item("black", "kululli", R.drawable.color_black, R.raw.color_black));
-        words.add(new Item("white", "kelelli", R.drawable.color_white, R.raw.color_white));
-        words.add(new Item("dusty yellow", "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
-        words.add(new Item("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
+        words.add(new Item("Coyote Creek Trail", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
+        words.add(new Item("Spring Valley Trail", "chokokki", R.drawable.color_green, R.raw.color_green));
+        words.add(new Item("Hetch Hetchy Trail", "ṭakaakki", R.drawable.color_brown, R.raw.color_brown));
+        words.add(new Item("Agua Caliente Trail", "ṭopoppi", R.drawable.color_gray, R.raw.color_gray));
+        words.add(new Item("Lower Guadalupe River Trail", "kululli", R.drawable.color_black, R.raw.color_black));
+        words.add(new Item("Calera Creek Trail", "kelelli", R.drawable.color_white, R.raw.color_white));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

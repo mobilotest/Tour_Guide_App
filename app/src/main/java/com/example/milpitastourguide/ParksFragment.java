@@ -80,8 +80,8 @@ public class ParksFragment extends Fragment {
 
         // create an array of words
         final ArrayList<Item> words = new ArrayList<Item>();
-        words.add(new Item("red", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
-        words.add(new Item("green", "chokokki", R.drawable.color_green, R.raw.color_green));
+        words.add(new Item("Cardoza Park", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
+        words.add(new Item("Foothill Park", "chokokki", R.drawable.color_green, R.raw.color_green));
         words.add(new Item("brown", "ṭakaakki", R.drawable.color_brown, R.raw.color_brown));
         words.add(new Item("gray", "ṭopoppi", R.drawable.color_gray, R.raw.color_gray));
         words.add(new Item("black", "kululli", R.drawable.color_black, R.raw.color_black));
