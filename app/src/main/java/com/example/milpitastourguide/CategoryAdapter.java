@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 /**
  * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
- * each list item based on a data source which is a list of {@link Word} objects.
+ * each list item based on a data source which is a list of {@link Item} objects.
  */
 public class CategoryAdapter extends FragmentPagerAdapter {
 
@@ -58,17 +58,17 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.category_numbers);
+            return mContext.getString(R.string.category_restaurants);
         } else if (position == 1) {
-            return mContext.getString(R.string.category_family);
+            return mContext.getString(R.string.category_shops);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_colors);
+            return mContext.getString(R.string.category_walking);
         } else if (position == 3) {
-            return mContext.getString(R.string.category_colors);
+            return mContext.getString(R.string.category_biking);
         } else if (position == 4) {
-            return mContext.getString(R.string.category_colors);
+            return mContext.getString(R.string.category_parks);
         } else {
-            return mContext.getString(R.string.category_phrases);
+            return mContext.getString(R.string.category_playgrounds);
         }
     }
 }

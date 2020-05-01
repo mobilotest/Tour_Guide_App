@@ -1,135 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/tan_background"
-    android:orientation="vertical"
-    tools:context="com.example.milpitastourguide.MainActivity">
+    android:layout_height="match_parent">
 
-    <!-- Restaurants category -->
-    <FrameLayout
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="8dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/category_restaurants">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center|right"
-            android:layout_marginRight="40dp"
-            android:src="@drawable/ic_restaurant_black_24dp" />
-        <TextView
-            android:id="@+id/restaurants"
-            android:textSize="27sp"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_restaurants" />
-    </FrameLayout>
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-    <!-- Shopping category -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="8dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/category_shops">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center|right"
-            android:layout_marginRight="40dp"
-            android:src="@drawable/ic_store_mall_directory_black_24dp" />
-        <TextView
-            android:id="@+id/shops"
-            android:textSize="27sp"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_shops" />
-    </FrameLayout>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:background="#dc2700"/>
 
-    <!-- Walking category -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="8dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/category_walking">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center|right"
-            android:layout_marginRight="40dp"
-            android:src="@drawable/ic_directions_run_black_24dp" />
-        <TextView
-            android:id="@+id/walking"
-            android:textSize="27sp"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_walking" />
-    </FrameLayout>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+    </android.support.design.widget.AppBarLayout>
 
-    <!-- Biking category -->
-    <FrameLayout
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="8dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/category_biking">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center|right"
-            android:layout_marginRight="40dp"
-            android:src="@drawable/ic_directions_bike_black_24dp" />
-        <TextView
-            android:id="@+id/biking"
-            android:textSize="27sp"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_biking" />
-    </FrameLayout>
-
-    <!-- Parks category -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="8dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/category_parks">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center|right"
-            android:layout_marginRight="40dp"
-            android:src="@drawable/ic_local_florist_black_24dp" />
-        <TextView
-            android:id="@+id/parks"
-            android:textSize="27sp"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_parks" />
-    </FrameLayout>
-
-    <!-- Playgrounds category -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="8dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/category_playgrounds">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center|right"
-            android:layout_marginRight="40dp"
-            android:src="@drawable/ic_child_friendly_black_24dp" />
-        <TextView
-            android:id="@+id/playgrounds"
-            android:textSize="27sp"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/category_playgrounds" />
-    </FrameLayout>
-</LinearLayout>
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+</android.support.design.widget.CoordinatorLayout>
