@@ -16,6 +16,8 @@ import java.util.ArrayList;
 public class ItemAdapter extends ArrayAdapter<Item> {
 
     private int mColorResourceId;
+    private Button btnPhone, btnSHare, btnGo;
+
 
     public ItemAdapter(Context context, ArrayList<Item> words, int colorResourceId) {
         super(context, 0, words);
@@ -57,6 +59,14 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
+
+        btnPhone = (Button) listItemView.findViewById(R.id.btnCall);
+        btnSHare = (Button) listItemView.findViewById(R.id.btnShare);
+        btnGo = (Button) listItemView.findViewById(R.id.btnGo);
+
+        btnPhone.setBackgroundResource(R.drawable.ic_perm_phone_msg);
+        btnSHare.setBackgroundResource(R.drawable.ic_action_share);
+        btnGo.setBackgroundResource(R.drawable.ic_action_globe);
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.

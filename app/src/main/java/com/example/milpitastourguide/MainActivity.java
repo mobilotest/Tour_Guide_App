@@ -14,17 +14,10 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    Button btnPhone;
-    Button btnSHare;
-    Button btnGo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-//        btnPhone.setBackgroundResource(R.drawable.ic_perm_phone_msg);
-//        btnSHare.setBackgroundResource(R.drawable.ic_action_share);
-//        btnGo.setBackgroundResource(R.drawable.ic_action_globe);
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
@@ -54,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(3).setIcon(R.drawable.ic_directions_bike);
         tabLayout.getTabAt(4).setIcon(R.drawable.ic_local_florist);
         tabLayout.getTabAt(5).setIcon(R.drawable.ic_child_friendly);
+
     }
 
     private void setupViewPager(ViewPager viewPager) {

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
@@ -13,11 +14,13 @@ import java.util.ArrayList;
 /**
  * {@link Fragment} that displays a list of number vocabulary words.
  */
-public class BikingFragment extends Fragment {
+public class BikingFragment extends Fragment{
 
     public BikingFragment() {
         // Required empty public constructor
     }
+
+    View view;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,8 +28,7 @@ public class BikingFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
         // create an array of words
