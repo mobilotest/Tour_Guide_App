@@ -27,7 +27,7 @@ public class BikingFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.item_list, container, false);
+        View rootView = inflater.inflate(R.layout.items_list, container, false);
 
         // create an array of words
         final ArrayList<Item> items = new ArrayList<Item>();
@@ -37,16 +37,16 @@ public class BikingFragment extends Fragment {
         items.add(new Item("Calaveras Loop", "ṭopoppi", R.drawable.calaveras_loop));
         items.add(new Item("black", "51 Miles", R.drawable.fiftyone_road_cycling));
 
-        // Create an {@link item_list}, whose data source is a list of {@link Word}s. The
+        // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        item_list adapter = new item_list(getActivity(), items, R.color.category_biking);
+        ItemAdapter adapter = new ItemAdapter(getActivity(), items, R.color.category_biking);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // item_list.xml layout file.
+        // ItemAdapter.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link item_list} we created above, so that the
+        // Make the {@link ListView} use the {@link ItemAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 

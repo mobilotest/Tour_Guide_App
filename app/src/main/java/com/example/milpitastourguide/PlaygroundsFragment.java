@@ -22,7 +22,7 @@ public class PlaygroundsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.item_list, container, false);
+        View rootView = inflater.inflate(R.layout.items_list, container, false);
 
         // create an array of words
         final ArrayList<Item> items = new ArrayList<Item>();
@@ -33,16 +33,16 @@ public class PlaygroundsFragment extends Fragment {
         items.add(new Item("Jose Higuera Park", "kululli", R.drawable.play_jose_higuera_park));
         items.add(new Item("Pinewook Park", "kelelli", R.drawable.play_pinewood));
 
-        // Create an {@link item_list}, whose data source is a list of {@link Word}s. The
+        // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        item_list adapter = new item_list(getActivity(), items, R.color.category_playgrounds);
+        ItemAdapter adapter = new ItemAdapter(getActivity(), items, R.color.category_playgrounds);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // item_list.xml layout file.
+        // ItemAdapter.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link item_list} we created above, so that the
+        // Make the {@link ListView} use the {@link ItemAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 

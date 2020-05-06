@@ -6,17 +6,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 
-public class item_list extends ArrayAdapter<Item> {
+public class ItemAdapter extends ArrayAdapter<Item> {
 
     private int mColorResourceId;
 
-    public item_list(Context context, ArrayList<Item> words, int colorResourceId) {
+    public ItemAdapter(Context context, ArrayList<Item> words, int colorResourceId) {
         super(context, 0, words);
         mColorResourceId = colorResourceId;
     }
@@ -26,7 +27,7 @@ public class item_list extends ArrayAdapter<Item> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.item_list, parent, false);
+                    R.layout.list_item, parent, false);
         }
 
         // Get the {@link Milpitas} object located at this position in the list

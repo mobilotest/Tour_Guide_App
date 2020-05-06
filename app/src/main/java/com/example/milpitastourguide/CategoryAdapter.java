@@ -7,22 +7,22 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 /**
- * {@link FragmentStateAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
+ * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
  * each list item based on a data source which is a list of {@link Item} objects.
  */
-public class FragmentStateAdapter extends FragmentPagerAdapter {
+public class CategoryAdapter extends FragmentPagerAdapter {
 
     /** Context of the app */
     private Context mContext;
 
     /**
-     * Create a new {@link FragmentStateAdapter} object.
+     * Create a new {@link CategoryAdapter} object.
      *
      * @param context is the context of the app
      * @param fm is the fragment manager that will keep each fragment's state in the adapter
      *           across swipes.
      */
-    public FragmentStateAdapter(Context context, FragmentManager fm) {
+    public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
