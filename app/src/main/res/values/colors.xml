@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#00BCD4</color>
+    <color name="colorAccent">#FF9800</color>
+
     <!-- Primary color of the app (shown in the app bar) -->
     <color name="primary_color">#2A2828</color>
 
@@ -7,7 +12,7 @@
     <color name="primary_dark_color">#000000</color>
 
     <!-- Background color for app -->
-    <color name="tan_background">#FFF7DA</color>
+    <color name="tan_background">#2A2828</color>
 
     <!-- Background color for the Restaurants category -->
     <color name="category_restaurants">#18FEF9</color>
@@ -27,5 +32,4 @@
     <!-- Background color for the Playgrounds category -->
     <color name="category_playgrounds">#FEA718</color>
 
-    <color name="colorAccent">#FFF7DA</color>
 </resources>

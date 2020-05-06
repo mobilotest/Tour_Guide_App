@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="@dimen/list_item_height"
-        android:layout_height="@dimen/list_item_height" />
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
 
     <RelativeLayout
         android:id="@+id/text_container"
@@ -30,7 +30,7 @@
             android:layout_weight="1"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@color/primary_dark_color"
             android:textStyle="bold"
             tools:text="lutti" />
 
@@ -42,15 +42,45 @@
             android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@color/primary_color"
             tools:text="one" />
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:id="@+id/call"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/address_text_view"
+            android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="16dp"
-            android:src="@drawable/ic_play_arrow" />
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="105dp"
+            android:layout_marginBottom="22dp"
+            android:src="@drawable/ic_perm_phone_msg" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/address_text_view"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="82dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_action_share" />
+
+        <ImageView
+            android:id="@+id/web"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/address_text_view"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="22dp"
+            android:src="@drawable/ic_action_globe" />
     </RelativeLayout>
 </RelativeLayout>
