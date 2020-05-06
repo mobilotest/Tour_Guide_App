@@ -10,7 +10,8 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="200dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
 
     <RelativeLayout
         android:id="@+id/text_container"
@@ -32,7 +33,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/primary_dark_color"
             android:textStyle="bold"
-            tools:text="lutti" />
+            tools:text="name" />
 
         <TextView
             android:id="@+id/address_text_view"
@@ -43,44 +44,37 @@
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/primary_color"
-            tools:text="one" />
+            tools:text="address" />
 
-        <ImageView
-            android:id="@+id/call"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@+id/address_text_view"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginTop="22dp"
-            android:layout_marginRight="105dp"
-            android:layout_marginBottom="22dp"
-            android:src="@drawable/ic_perm_phone_msg" />
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:layout_alignParentBottom="true">
 
-        <ImageView
-            android:id="@+id/share"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@+id/address_text_view"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="22dp"
-            android:layout_marginRight="82dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/ic_action_share" />
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="65dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="9dp" />
 
-        <ImageView
-            android:id="@+id/web"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@+id/address_text_view"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="22dp"
-            android:layout_marginRight="19dp"
-            android:layout_marginBottom="22dp"
-            android:src="@drawable/ic_action_globe" />
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="65dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnGo"
+                android:layout_width="65dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="9dp" />
+        </LinearLayout>
+
     </RelativeLayout>
 </RelativeLayout>
