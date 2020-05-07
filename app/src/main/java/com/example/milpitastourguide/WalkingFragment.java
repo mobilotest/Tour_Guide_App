@@ -24,12 +24,12 @@ public class WalkingFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        // create an array of words
+        // create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Coyote Creek Trail", "Milpitas, CA", R.drawable.coyote, "6509337070", "www.goo.gle"));
-        items.add(new Item("Spring Valley Trail", "Milpitas, CA", R.drawable.spring_valley, "6509337070", "www.goo.gle"));
-        items.add(new Item("Hetch Hetchy Trail", "Milpitas, CA", R.drawable.hetch_hetchy, "6509337070", "www.goo.gle"));
-        items.add(new Item("Agua Caliente Trail", "Milpitas, CA", R.drawable.agua_caliente, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_CoyoteCreekTrail), getString(R.string.walking_CoyoteCreekTrail_address), R.drawable.coyote, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_SpringValleyTrail), getString(R.string.walking_SpringValleyTrail_address), R.drawable.spring_valley, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_HetchHetchyTrail), getString(R.string.walking_HetchHetchyTrail_address), R.drawable.hetch_hetchy, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_AguaCalienteTrail), getString(R.string.walking_AguaCalienteTrail_address), R.drawable.agua_caliente, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

@@ -1,6 +1,9 @@
 package com.example.milpitastourguide;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.widget.Toolbar;
@@ -8,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
+
+import static androidx.core.content.ContextCompat.startActivity;
 
 public class MainActivity extends AppCompatActivity {
 

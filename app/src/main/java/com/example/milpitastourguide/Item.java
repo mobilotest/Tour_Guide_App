@@ -23,7 +23,6 @@ public class Item {
 
     /**
      * Create a new Item object.
-     *
      * @param institutionName  is the name of the institution
      * @param facilityAddress   is the address of the institution
      * @param imageResourceId    is the images for each item

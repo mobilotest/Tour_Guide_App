@@ -24,14 +24,14 @@ public class PlaygroundsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        // create an array of words
+        // create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Cardoza Park", "1525 Kennedy Dr, Milpitas, CA 95035", R.drawable.play_cardoza_park, "6509337070", "www.goo.gle"));
-        items.add(new Item("Cerano Park", "Murphy Ranch Rd, Milpitas, CA 95035", R.drawable.play_cerano_park, "6509337070", "www.goo.gle"));
-        items.add(new Item("Dixon Land Park", "1771 Milmont Dr, Milpitas, CA", R.drawable.play_dixon_land, "6509337070", "www.goo.gle"));
-        items.add(new Item("Hall Memory Park", "304 La Honda Dr, Milpitas, CA 95035", R.drawable.play_hall_mem, "6509337070", "www.goo.gle"));
-        items.add(new Item("Jose Higuera Park", "Wessex Pl, Milpitas, CA 95035", R.drawable.play_jose_higuera_park, "6509337070", "www.goo.gle"));
-        items.add(new Item("Pinewook Park", "Starlite Dr & Lonetree Ct, Milpitas, CA 95035", R.drawable.play_pinewood, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.playgrounds_CardozaPark), getString(R.string.playgrounds_CardozaPark_address), R.drawable.play_cardoza_park, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.playgrounds_CeranoPark), getString(R.string.playgrounds_CeranoPark_address), R.drawable.play_cerano_park, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.playgrounds_DixonLandPark), getString(R.string.playgrounds_DixonLandPark_address), R.drawable.play_dixon_land, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.parks_HallMemorialPark), getString(R.string.parks_HallMemorialPark_address), R.drawable.play_hall_mem, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.playgrounds_JoseHigueraPark), getString(R.string.playgrounds_JoseHigueraPark_address), R.drawable.play_jose_higuera_park, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.playgrounds_PinewookPark), getString(R.string.playgrounds_PinewookPark_address), R.drawable.play_pinewood, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

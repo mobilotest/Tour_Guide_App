@@ -24,13 +24,13 @@ public class RestaurantsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        // Create a list of words
+        // Create a list of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Red Lobster", "503 E Calaveras Blvd, Milpitas, CA 95035", R.drawable.red_lobster, "6509337070", "www.goo.gle"));
-        items.add(new Item("Naan and Masala", "94 Dempsey Rd, Milpitas, CA 95035", R.drawable.naan_n_masala, "6509337070", "www.goo.gle"));
-        items.add(new Item("Mikonos Grill", "756 E Calaveras Blvd, Milpitas, CA 95035", R.drawable.mikonos_grill, "6509337070", "www.goo.gle"));
-        items.add(new Item("Yogurtland", "752 E Calaveras Blvd, Milpitas, CA 95035", R.drawable.yogurtland, "6509337070", "www.goo.gle"));
-        items.add(new Item("Black Bear Diner", "174 W Calaveras Blvd, Milpitas, CA 95035", R.drawable.black_bear, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_RedLobster), getString(R.string.restaurant_RedLobster_address), R.drawable.red_lobster, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_NaanMasala), getString(R.string.restaurant_NaanMasala_address), R.drawable.naan_n_masala, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_MikonosGrill),  getString(R.string.restaurant_MikonosGrill_address), R.drawable.mikonos_grill, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_Yogurtland),  getString(R.string.restaurant_Yogurtland_address), R.drawable.yogurtland, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_BlackBearDiner),  getString(R.string.restaurant_BlackBearDiner_address), R.drawable.black_bear, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

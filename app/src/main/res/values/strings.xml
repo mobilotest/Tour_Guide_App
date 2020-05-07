@@ -20,4 +20,96 @@
     <!-- Category name for Playgrounds. [CHAR LIMIT=20] -->
     <string name="category_playgrounds">Play</string>
 
+    <!-- List of items Institution names for Restaurants: -->
+    <string name="restaurant_RedLobster">Red Lobster</string>
+    <string name="restaurant_NaanMasala">Naan and Masala</string>
+    <string name="restaurant_MikonosGrill">Mikonos Grill</string>
+    <string name="restaurant_Yogurtland">Yogurtland</string>
+    <string name="restaurant_BlackBearDiner">Black Bear Diner</string>
+
+    <!-- List of items Institution address for Restaurants: -->
+    <string name="restaurant_RedLobster_address">503 E Calaveras Blvd, Milpitas, CA 95035</string>
+    <string name="restaurant_NaanMasala_address">94 Dempsey Rd, Milpitas, CA 95035</string>
+    <string name="restaurant_MikonosGrill_address">756 E Calaveras Blvd, Milpitas, CA 95035</string>
+    <string name="restaurant_Yogurtland_address">752 E Calaveras Blvd, Milpitas, CA 95035</string>
+    <string name="restaurant_BlackBearDiner_address">174 W Calaveras Blvd, Milpitas, CA 95035</string>
+
+    <!-- List of items Institution names for Shopping: -->
+    <string name="shopping_GreatMall">Great Mall</string>
+    <string name="shopping_CrescentSquare">Crescent Square</string>
+    <string name="shopping_CalaverasPlaza">Calaveras Plaza Shopping Center</string>
+    <string name="shopping_MilpitasCenter">Yogurtland</string>
+    <string name="shopping_MilpitasTownCenter">Milpitas Town Center</string>
+    <string name="shopping_MilpitasMallShoppingCenter">Milpitas Mall Shopping Center</string>
+
+    <!-- List of items Institution address for Shopping: -->
+    <string name="shopping_GreatMall_address">447 Great Mall Dr, Milpitas, CA 95035</string>
+    <string name="shopping_CrescentSquare_address">1783 N Milpitas Blvd, Milpitas, CA 95035</string>
+    <string name="shopping_CalaverasPlaza_address">231 W Calaveras Blvd, Milpitas, CA 95035</string>
+    <string name="shopping_MilpitasCenter_address">20 S Abbott Ave, Milpitas, CA 95035</string>
+    <string name="shopping_MilpitasTownCenter_address">555 E Calaveras Blvd, Milpitas, CA 95035</string>
+    <string name="shopping_MilpitasMallShoppingCenter_address">1535 Landess Ave, Milpitas, CA 95035</string>
+
+    <!-- List of items Institution names for Walking: -->
+    <string name="walking_CoyoteCreekTrail">Coyote Creek Trail</string>
+    <string name="walking_SpringValleyTrail">Spring Valley Trail</string>
+    <string name="walking_HetchHetchyTrail">Hetch Hetchy Trail</string>
+    <string name="walking_AguaCalienteTrail">Agua Caliente Trail</string>
+
+    <!-- List of items Institution address for Walking: -->
+    <string name="walking_CoyoteCreekTrail_address">Milpitas, CA 95035</string>
+    <string name="walking_SpringValleyTrail_address">Milpitas, CA 95035</string>
+    <string name="walking_HetchHetchyTrail_address">Milpitas, CA 95035</string>
+    <string name="walking_AguaCalienteTrail_address">Milpitas, CA 95035</string>
+
+    <!-- List of items Institution names for Walking: -->
+    <string name="biking_SierraRoadLoop">Sierra Road Loop</string>
+    <string name="biking_8Miles">8 Miles</string>
+    <string name="biking_38Miles">38 Miles</string>
+    <string name="biking_CalaverasLoop">Calaveras Loop</string>
+    <string name="biking_51Miles">51 Miles</string>
+
+    <!-- List of items Institution address for Walking: -->
+    <string name="biking_SierraRoadLoop_address">Milpitas, CA 95035</string>
+    <string name="biking_8Miles_address">Milpitas, CA 95035</string>
+    <string name="biking_38Miles_address">Milpitas, CA 95035</string>
+    <string name="biking_CalaverasLoop_address">Milpitas, CA 95035</string>
+    <string name="biking_51Miles_address">Milpitas, CA 95035</string>
+
+    <!-- List of items Institution names for Parks: -->
+    <string name="parks_SinnottPark">Sinnott Park</string>
+    <string name="parks_FoothillPark">Foothill Park</string>
+    <string name="parks_ParkMetroEast">Park Metro East</string>
+    <string name="parks_HiddenLakePark">Hidden Lake Park</string>
+    <string name="parks_HallMemorialPark">Hall Memorial Park</string>
+    <string name="parksEdevinPark">Ed R Levin Park</string>
+    <string name="parksMurphyPark">Murphy Park</string>
+    <string name="parksAlvisoAdobePark">Alviso Adobe Park</string>
+
+    <!-- List of items Institution address for Parks: -->
+    <string name="parks_SinnottPark_address">Milpitas, CA 95035</string>
+    <string name="parks_FoothillPark_address">Milpitas, CA 95035</string>
+    <string name="parks_ParkMetroEast_address">Milpitas, CA 95035</string>
+    <string name="parks_HiddenLakePark_address">Milpitas, CA 95035</string>
+    <string name="parks_HallMemorialPark_address">Milpitas, CA 95035</string>
+    <string name="parks_EdevinPark_address">Milpitas, CA 95035</string>
+    <string name="parks_MurphyPark_address">Milpitas, CA 95035</string>
+    <string name="parks_AlvisoAdobePark_address">Milpitas, CA 95035</string>
+
+    <!-- List of items Institution names for Playgrounds: -->
+    <string name="playgrounds_CardozaPark">Cardoza Park</string>
+    <string name="playgrounds_CeranoPark">Cerano Park</string>
+    <string name="playgrounds_DixonLandPark">Dixon Land Park</string>
+    <string name="playgrounds_HallMemoryPark">Hall Memory Park</string>
+    <string name="playgrounds_JoseHigueraPark">Jose Higuera Park</string>
+    <string name="playgrounds_PinewookPark">Pinewook Park</string>
+
+    <!-- List of items Institution address for Playground: -->
+    <string name="playgrounds_CardozaPark_address">1525 Kennedy Dr, Milpitas, CA 95035</string>
+    <string name="playgrounds_CeranoPark_address">Murphy Ranch Rd, Milpitas, CA 95035</string>
+    <string name="playgrounds_DixonLandPark_address">1771 Milmont Dr, Milpitas, CA</string>
+    <string name="playgrounds_HallMemoryPark_address">304 La Honda Dr, Milpitas, CA 95035</string>
+    <string name="playgrounds_JoseHigueraPark_address">Wessex Pl, Milpitas, CA 95035</string>
+    <string name="playgrounds_PinewookPark_address">Starlite Dr and Lonetree Ct, Milpitas, CA 95035</string>
+
 </resources>

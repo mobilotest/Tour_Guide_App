@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
@@ -31,13 +30,13 @@ public class BikingFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        // create an array of words
+        // create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Sierra Road Loop", "Milpitas, CA", R.drawable.sierra_road_loop, "6509337070", "www.goo.gle"));
-        items.add(new Item("8 Miles", "Milpitas, CA", R.drawable.eight_road_cycling, "6509337070", "www.goo.gle"));
-        items.add(new Item("38 Miles", "Milpitas, CA", R.drawable.thirthyeight_road_cycling, "6509337070", "www.goo.gle"));
-        items.add(new Item("Calaveras Loop", "Milpitas, CA", R.drawable.calaveras_loop, "6509337070", "www.goo.gle"));
-        items.add(new Item("51 Miles", "Milpitas, CA", R.drawable.fiftyone_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_SierraRoadLoop), getString(R.string.biking_SierraRoadLoop_address), R.drawable.sierra_road_loop, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_8Miles), getString(R.string.biking_8Miles_address), R.drawable.eight_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_38Miles), getString(R.string.biking_38Miles_address), R.drawable.thirthyeight_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_CalaverasLoop), getString(R.string.shopping_CalaverasPlaza_address), R.drawable.calaveras_loop, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_51Miles), getString(R.string.biking_51Miles_address), R.drawable.fiftyone_road_cycling, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

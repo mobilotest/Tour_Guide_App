@@ -24,14 +24,15 @@ public class ShoppingFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        // create an array of words
+        // create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Great Mall", "447 Great Mall Dr, Milpitas, CA 95035", R.drawable.great_mall, "6509337070", "www.goo.gle"));
-        items.add(new Item("Crescent Square", "1783 N Milpitas Blvd, Milpitas, CA 95035", R.drawable.crescent_sqare, "6509337070", "www.goo.gle"));
-        items.add(new Item("Calaveras Plaza Shopping Center", "231 W Calaveras Blvd, Milpitas, CA 95035", R.drawable.calaveras_plaza, "6509337070", "www.goo.gle"));
-        items.add(new Item("Milpitas Center", "20 S Abbott Ave, Milpitas, CA 95035", R.drawable.center, "6509337070", "www.goo.gle"));
-        items.add(new Item("Milpitas Town Center", "555 E Calaveras Blvd, Milpitas, CA 95035", R.drawable.town_center, "6509337070", "www.goo.gle"));
-        items.add(new Item("Milpitas Mall Shopping Center", "1535 Landess Ave, Milpitas, CA 95035", R.drawable.mall_shop_center, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.shopping_GreatMall), getString(R.string.shopping_GreatMall_address), R.drawable.great_mall, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.shopping_CrescentSquare), getString(R.string.shopping_CrescentSquare_address), R.drawable.crescent_sqare, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.shopping_CalaverasPlaza), getString(R.string.shopping_CalaverasPlaza_address), R.drawable.calaveras_plaza, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.shopping_MilpitasCenter), getString(R.string.shopping_MilpitasCenter_address), R.drawable.center, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.shopping_MilpitasTownCenter), getString(R.string.shopping_MilpitasTownCenter_address), R.drawable.town_center, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.shopping_MilpitasMallShoppingCenter), getString(R.string.shopping_MilpitasMallShoppingCenter_address), R.drawable.mall_shop_center, "6509337070", "www.goo.gle"));
+
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
