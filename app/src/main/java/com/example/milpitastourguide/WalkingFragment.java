@@ -26,10 +26,10 @@ public class WalkingFragment extends Fragment {
 
         // create an array of words
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Coyote Creek Trail", "weṭeṭṭi", R.drawable.coyote));
-        items.add(new Item("Spring Valley Trail", "chokokki", R.drawable.spring_valley));
-        items.add(new Item("Hetch Hetchy Trail", "ṭakaakki", R.drawable.hetch_hetchy));
-        items.add(new Item("Agua Caliente Trail", "ṭopoppi", R.drawable.agua_caliente));
+        items.add(new Item("Coyote Creek Trail", "Milpitas, CA", R.drawable.coyote, "6509337070", "www.goo.gle"));
+        items.add(new Item("Spring Valley Trail", "Milpitas, CA", R.drawable.spring_valley, "6509337070", "www.goo.gle"));
+        items.add(new Item("Hetch Hetchy Trail", "Milpitas, CA", R.drawable.hetch_hetchy, "6509337070", "www.goo.gle"));
+        items.add(new Item("Agua Caliente Trail", "Milpitas, CA", R.drawable.agua_caliente, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

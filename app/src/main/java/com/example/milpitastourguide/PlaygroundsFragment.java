@@ -26,12 +26,12 @@ public class PlaygroundsFragment extends Fragment {
 
         // create an array of words
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Cardoza Park", "weṭeṭṭi", R.drawable.play_cardoza_park));
-        items.add(new Item("Cerano Park", "chokokki", R.drawable.play_cerano_park));
-        items.add(new Item("Dixon Land Park", "ṭakaakki", R.drawable.play_dixon_land));
-        items.add(new Item("Hall Memory Park", "ṭopoppi", R.drawable.play_hall_mem));
-        items.add(new Item("Jose Higuera Park", "kululli", R.drawable.play_jose_higuera_park));
-        items.add(new Item("Pinewook Park", "kelelli", R.drawable.play_pinewood));
+        items.add(new Item("Cardoza Park", "1525 Kennedy Dr, Milpitas, CA 95035", R.drawable.play_cardoza_park, "6509337070", "www.goo.gle"));
+        items.add(new Item("Cerano Park", "Murphy Ranch Rd, Milpitas, CA 95035", R.drawable.play_cerano_park, "6509337070", "www.goo.gle"));
+        items.add(new Item("Dixon Land Park", "1771 Milmont Dr, Milpitas, CA", R.drawable.play_dixon_land, "6509337070", "www.goo.gle"));
+        items.add(new Item("Hall Memory Park", "304 La Honda Dr, Milpitas, CA 95035", R.drawable.play_hall_mem, "6509337070", "www.goo.gle"));
+        items.add(new Item("Jose Higuera Park", "Wessex Pl, Milpitas, CA 95035", R.drawable.play_jose_higuera_park, "6509337070", "www.goo.gle"));
+        items.add(new Item("Pinewook Park", "Starlite Dr & Lonetree Ct, Milpitas, CA 95035", R.drawable.play_pinewood, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

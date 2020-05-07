@@ -6,30 +6,36 @@ package com.example.milpitastourguide;
  */
 public class Item {
 
-    /**
-     * Facility name (Header)
-     */
+    /** Facility name (Header) */
     private String mInstitutionName;
 
-    /**
-     * Facility address
-     */
+    /** Facility address */
     private String mFacilityAddress;
 
     /** Image resource ID for the item */
     private int mImageResourceId;
 
+    /** Phone number for the item */
+    private String mInstitutionPhone;
+
+    /** Web address of the item */
+    private String mOpenOnWeb;
+
     /**
      * Create a new Item object.
      *
-     * @param institutionName is the name of the institution
+     * @param institutionName  is the name of the institution
      * @param facilityAddress   is the address of the institution
      * @param imageResourceId    is the images for each item
+     * @param institutionPhone  is the phone number of the institution
+     * @param openOnWeb    is the link to the web resource for each item
      */
-    public Item(String institutionName, String facilityAddress, int imageResourceId) {
+    public Item(String institutionName, String facilityAddress, int imageResourceId, String institutionPhone, String openOnWeb) {
         mInstitutionName = institutionName;
         mFacilityAddress = facilityAddress;
         mImageResourceId = imageResourceId;
+        mInstitutionPhone = institutionPhone;
+        mOpenOnWeb = openOnWeb;
     }
 
     /**
@@ -51,5 +57,19 @@ public class Item {
      */
     public int getImageResourceId() {
         return mImageResourceId;
+    }
+
+    /**
+     * Get the phone number for each item.
+     */
+    public String getInstitutionPhone() {
+        return mInstitutionPhone;
+    }
+
+    /**
+     * Get the web address of each item.
+     */
+    public String getOpenOnWeb() {
+        return mOpenOnWeb;
     }
 }

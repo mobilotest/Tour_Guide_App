@@ -33,11 +33,11 @@ public class BikingFragment extends Fragment{
 
         // create an array of words
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Sierra Road Loop", "weṭeṭṭi", R.drawable.sierra_road_loop));
-        items.add(new Item("green", "8 Miles", R.drawable.eight_road_cycling));
-        items.add(new Item("brown", "38 Miles", R.drawable.thirthyeight_road_cycling));
-        items.add(new Item("Calaveras Loop", "ṭopoppi", R.drawable.calaveras_loop));
-        items.add(new Item("black", "51 Miles", R.drawable.fiftyone_road_cycling));
+        items.add(new Item("Sierra Road Loop", "Milpitas, CA", R.drawable.sierra_road_loop, "6509337070", "www.goo.gle"));
+        items.add(new Item("8 Miles", "Milpitas, CA", R.drawable.eight_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item("38 Miles", "Milpitas, CA", R.drawable.thirthyeight_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item("Calaveras Loop", "Milpitas, CA", R.drawable.calaveras_loop, "6509337070", "www.goo.gle"));
+        items.add(new Item("51 Miles", "Milpitas, CA", R.drawable.fiftyone_road_cycling, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

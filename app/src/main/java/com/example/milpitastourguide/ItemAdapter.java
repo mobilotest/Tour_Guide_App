@@ -60,10 +60,10 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
 
+        // Buttons on every list item for open intents
         btnPhone = (Button) listItemView.findViewById(R.id.btnCall);
         btnSHare = (Button) listItemView.findViewById(R.id.btnShare);
         btnGo = (Button) listItemView.findViewById(R.id.btnGo);
-
         btnPhone.setBackgroundResource(R.drawable.ic_perm_phone_msg);
         btnSHare.setBackgroundResource(R.drawable.ic_action_share);
         btnGo.setBackgroundResource(R.drawable.ic_action_globe);

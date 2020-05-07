@@ -26,12 +26,12 @@ public class ShoppingFragment extends Fragment {
 
         // create an array of words
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Great Mall", "әpә", R.drawable.great_mall));
-        items.add(new Item("Crescent Square", "әṭa", R.drawable.crescent_sqare));
-        items.add(new Item("Calaveras Plaza", "angsi", R.drawable.calaveras_plaza));
-        items.add(new Item("Milpitas Center", "tune", R.drawable.center));
-        items.add(new Item("Town Center", "taachi", R.drawable.town_center));
-        items.add(new Item("Mall Shop Center", "chalitti", R.drawable.mall_shop_center));
+        items.add(new Item("Great Mall", "447 Great Mall Dr, Milpitas, CA 95035", R.drawable.great_mall, "6509337070", "www.goo.gle"));
+        items.add(new Item("Crescent Square", "1783 N Milpitas Blvd, Milpitas, CA 95035", R.drawable.crescent_sqare, "6509337070", "www.goo.gle"));
+        items.add(new Item("Calaveras Plaza Shopping Center", "231 W Calaveras Blvd, Milpitas, CA 95035", R.drawable.calaveras_plaza, "6509337070", "www.goo.gle"));
+        items.add(new Item("Milpitas Center", "20 S Abbott Ave, Milpitas, CA 95035", R.drawable.center, "6509337070", "www.goo.gle"));
+        items.add(new Item("Milpitas Town Center", "555 E Calaveras Blvd, Milpitas, CA 95035", R.drawable.town_center, "6509337070", "www.goo.gle"));
+        items.add(new Item("Milpitas Mall Shopping Center", "1535 Landess Ave, Milpitas, CA 95035", R.drawable.mall_shop_center, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
