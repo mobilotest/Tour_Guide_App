@@ -30,7 +30,7 @@ public class ParksFragment extends Fragment {
         items.add(new Item(getString(R.string.parks_FoothillPark), getString(R.string.parks_FoothillPark_address), R.drawable.foothill_park, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.parks_ParkMetroEast), getString(R.string.parks_ParkMetroEast_address), R.drawable.park_metro_east, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.parks_HiddenLakePark), getString(R.string.parks_HiddenLakePark_address), R.drawable.hidden_lake_park, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.parks_HallMemorialPark), getString(R.string.parks_HallMemorialPark_address), R.drawable.hall_memo_park, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.parks_HallMemorialPark), getString(R.string.parks_HallMemorialPark_address), R.drawable.play_hall_mem, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.parksEdevinPark), getString(R.string.parks_EdevinPark_address), R.drawable.ed_r_levin_park, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.parksMurphyPark), getString(R.string.parks_MurphyPark_address), R.drawable.murthy_park, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.parksAlvisoAdobePark), getString(R.string.parks_AlvisoAdobePark_address), R.drawable.alviso_adobe_park, "6509337070", "www.goo.gle"));

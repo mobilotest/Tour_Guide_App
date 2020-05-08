@@ -101,7 +101,6 @@
     <string name="playgrounds_CeranoPark">Cerano Park</string>
     <string name="playgrounds_DixonLandPark">Dixon Land Park</string>
     <string name="playgrounds_HallMemoryPark">Hall Memory Park</string>
-    <string name="playgrounds_JoseHigueraPark">Jose Higuera Park</string>
     <string name="playgrounds_PinewookPark">Pinewook Park</string>
 
     <!-- List of items Institution address for Playground: -->
@@ -109,7 +108,6 @@
     <string name="playgrounds_CeranoPark_address">Murphy Ranch Rd, Milpitas, CA 95035</string>
     <string name="playgrounds_DixonLandPark_address">1771 Milmont Dr, Milpitas, CA</string>
     <string name="playgrounds_HallMemoryPark_address">304 La Honda Dr, Milpitas, CA 95035</string>
-    <string name="playgrounds_JoseHigueraPark_address">Wessex Pl, Milpitas, CA 95035</string>
     <string name="playgrounds_PinewookPark_address">Starlite Dr and Lonetree Ct, Milpitas, CA 95035</string>
 
 </resources>
