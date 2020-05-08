@@ -1,24 +1,13 @@
 package com.example.milpitastourguide;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-import androidx.appcompat.widget.Toolbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-import static androidx.core.content.ContextCompat.startActivity;
-
 public class MainActivity extends AppCompatActivity {
-
-    private Toolbar toolbar;
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,23 +35,12 @@ public class MainActivity extends AppCompatActivity {
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
 
+        // icons on the tabs
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_restaurant);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_local_grocery_store);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_directions_run);
         tabLayout.getTabAt(3).setIcon(R.drawable.ic_directions_bike);
         tabLayout.getTabAt(4).setIcon(R.drawable.ic_local_florist);
         tabLayout.getTabAt(5).setIcon(R.drawable.ic_child_friendly);
-
-    }
-
-    private void setupViewPager(ViewPager viewPager) {
-        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new RestaurantsFragment(), "");
-        adapter.addFragment(new ShoppingFragment(), "");
-        adapter.addFragment(new WalkingFragment(), "");
-        adapter.addFragment(new BikingFragment(), "");
-        adapter.addFragment(new ParksFragment(), "");
-        adapter.addFragment(new PlaygroundsFragment(), "");
-        viewPager.setAdapter(adapter);
     }
 }

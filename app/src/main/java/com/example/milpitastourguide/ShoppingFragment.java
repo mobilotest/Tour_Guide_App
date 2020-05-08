@@ -33,7 +33,6 @@ public class ShoppingFragment extends Fragment {
         items.add(new Item(getString(R.string.shopping_MilpitasTownCenter), getString(R.string.shopping_MilpitasTownCenter_address), R.drawable.town_center, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.shopping_MilpitasMallShoppingCenter), getString(R.string.shopping_MilpitasMallShoppingCenter_address), R.drawable.mall_shop_center, "6509337070", "www.goo.gle"));
 
-
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
         ItemAdapter adapter = new ItemAdapter(getActivity(), items, R.color.category_shops);

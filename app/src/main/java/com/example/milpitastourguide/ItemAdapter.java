@@ -18,7 +18,6 @@ public class ItemAdapter extends ArrayAdapter<Item> {
     private int mColorResourceId;
     private Button btnPhone, btnSHare, btnGo;
 
-
     public ItemAdapter(Context context, ArrayList<Item> words, int colorResourceId) {
         super(context, 0, words);
         mColorResourceId = colorResourceId;
