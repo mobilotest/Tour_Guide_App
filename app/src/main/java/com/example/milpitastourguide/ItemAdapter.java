@@ -68,7 +68,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         btnGo.setBackgroundResource(R.drawable.ic_action_globe);
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
-        // the ListView.
+        // the ListView
         return listItemView;
     }
 }
