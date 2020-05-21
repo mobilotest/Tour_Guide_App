@@ -32,11 +32,11 @@ public class BikingFragment extends Fragment{
 
         // create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(getString(R.string.biking_SierraRoadLoop), getString(R.string.biking_SierraRoadLoop_address), R.drawable.sierra_road_loop, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.biking_8Miles), getString(R.string.biking_8Miles_address), R.drawable.eight_road_cycling, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.biking_38Miles), getString(R.string.biking_38Miles_address), R.drawable.thirthyeight_road_cycling, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.biking_CalaverasLoop), getString(R.string.shopping_CalaverasPlaza_address), R.drawable.calaveras_loop, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.biking_51Miles), getString(R.string.biking_51Miles_address), R.drawable.fiftyone_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_sierraroadloop), getString(R.string.biking_sierraroadloop_address), R.drawable.sierra_road_loop, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_8miles), getString(R.string.biking_8miles_address), R.drawable.eight_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_38miles), getString(R.string.biking_38miles_address), R.drawable.thirthyeight_road_cycling, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_calaverasloop), getString(R.string.shopping_calaverasplaza_address), R.drawable.calaveras_loop, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.biking_51miles), getString(R.string.biking_51miles_address), R.drawable.fiftyone_road_cycling, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

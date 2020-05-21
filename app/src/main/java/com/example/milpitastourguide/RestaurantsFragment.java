@@ -26,11 +26,11 @@ public class RestaurantsFragment extends Fragment {
 
         // Create a list of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(getString(R.string.restaurant_RedLobster), getString(R.string.restaurant_RedLobster_address), R.drawable.red_lobster, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.restaurant_NaanMasala), getString(R.string.restaurant_NaanMasala_address), R.drawable.naan_n_masala, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.restaurant_MikonosGrill),  getString(R.string.restaurant_MikonosGrill_address), R.drawable.mikonos_grill, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.restaurant_Yogurtland),  getString(R.string.restaurant_Yogurtland_address), R.drawable.yogurtland, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.restaurant_BlackBearDiner),  getString(R.string.restaurant_BlackBearDiner_address), R.drawable.black_bear, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_redlobster), getString(R.string.restaurant_redlobster_address), R.drawable.red_lobster, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_naanmasala), getString(R.string.restaurant_naanmasala_address), R.drawable.naan_n_masala, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_mikonosgrill),  getString(R.string.restaurant_mikonosgrill_address), R.drawable.mikonos_grill, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_yogurtland),  getString(R.string.restaurant_yogurtland_address), R.drawable.yogurtland, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.restaurant_blackbeardiner),  getString(R.string.restaurant_blackbeardiner_address), R.drawable.black_bear, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

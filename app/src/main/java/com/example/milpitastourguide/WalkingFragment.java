@@ -26,10 +26,10 @@ public class WalkingFragment extends Fragment {
 
         // create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item(getString(R.string.walking_CoyoteCreekTrail), getString(R.string.walking_CoyoteCreekTrail_address), R.drawable.coyote, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.walking_SpringValleyTrail), getString(R.string.walking_SpringValleyTrail_address), R.drawable.spring_valley, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.walking_HetchHetchyTrail), getString(R.string.walking_HetchHetchyTrail_address), R.drawable.hetch_hetchy, "6509337070", "www.goo.gle"));
-        items.add(new Item(getString(R.string.walking_AguaCalienteTrail), getString(R.string.walking_AguaCalienteTrail_address), R.drawable.agua_caliente, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_coyotecreektrail), getString(R.string.walking_coyotecreektrail_address), R.drawable.coyote, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_springvalleytrail), getString(R.string.walking_springvalleytrail_address), R.drawable.spring_valley, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_hetchhetchytrail), getString(R.string.walking_hetchhetchytrail_address), R.drawable.hetch_hetchy, "6509337070", "www.goo.gle"));
+        items.add(new Item(getString(R.string.walking_aguacalientetrail), getString(R.string.walking_aguacalientetrail_address), R.drawable.agua_caliente, "6509337070", "www.goo.gle"));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
