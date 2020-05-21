@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="text_color_primary">#FFFFFF</color>
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#00BCD4</color>
     <color name="colorAccent">#FF9800</color>
