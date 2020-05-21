@@ -24,7 +24,7 @@ public class ShoppingFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        // create an array of words TODO:buttons with links to Phone, Web and Email intents
+        // Create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
         items.add(new Item(getString(R.string.shopping_greatmall), getString(R.string.shopping_greatmall_address), R.drawable.great_mall, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.shopping_crescentsquare), getString(R.string.shopping_crescentsquare_address), R.drawable.crescent_sqare, "6509337070", "www.goo.gle"));
