@@ -30,7 +30,7 @@ public class BikingFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.items_list, container, false);
 
-        // create an array of words TODO:buttons with links to Phone, Web and Email intents
+        // Create an array of words TODO:buttons with links to Phone, Web and Email intents
         final ArrayList<Item> items = new ArrayList<Item>();
         items.add(new Item(getString(R.string.biking_sierraroadloop), getString(R.string.biking_sierraroadloop_address), R.drawable.sierra_road_loop, "6509337070", "www.goo.gle"));
         items.add(new Item(getString(R.string.biking_8miles), getString(R.string.biking_8miles_address), R.drawable.eight_road_cycling, "6509337070", "www.goo.gle"));
