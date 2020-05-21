@@ -28,7 +28,7 @@
     <string name="restaurant_BlackBearDiner">Black Bear Diner</string>
 
     <!-- List of items Institution address for Restaurants: -->
-    <string name="restaurant_RedLobster_address">503 E Calaveras Blvd, Milpitas, CA 95035</string>
+    <string name="restaurant_redLobster_address">503 E Calaveras Blvd, Milpitas, CA 95035</string>
     <string name="restaurant_NaanMasala_address">94 Dempsey Rd, Milpitas, CA 95035</string>
     <string name="restaurant_MikonosGrill_address">756 E Calaveras Blvd, Milpitas, CA 95035</string>
     <string name="restaurant_Yogurtland_address">752 E Calaveras Blvd, Milpitas, CA 95035</string>
