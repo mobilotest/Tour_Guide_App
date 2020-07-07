@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
 
-        // icons on the tabs
+        // Icons on the tabs
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_restaurant);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_local_grocery_store);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_directions_run);
